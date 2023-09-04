@@ -1,0 +1,38 @@
+<!DOCTYPE html >
+<html>
+    <meta charset="utf-8">
+<head>
+<title>Premier League Data Store Table with imageSlider</title>
+   <style>
+  #class {
+    width: 500px;
+    height: 50px;
+
+    }
+  .btn {
+    margin-top: 15px;
+  }
+   </style>
+    
+</head>
+<body onLoad="initialize()">
+<center>
+<h1>English Premier League Data Table.</h1>
+<h1>Image Array javaScript data store slider .</h1>
+<br>
+  <form name="myForm">
+  <br>
+<img src="1.jpg" name="imgDisplay" width="500" height="500">
+<br><br>
+<input type="text" id="class" name="txtDescription" value=" LIVERPOOL |95 POINTS |EPL WINNER 2013-214 |30 WIN |5 DRAW |3 LOST" disabled>
+<b><br>
+<input type ="button" class="btn" value="next" onClick ="next()">
+<input type ="button" class="btn" value="prev" onClick ="prev()">
+<br>
+      </b>
+    </form>
+    </center>
+    </body>
+     <script src="slider.js">
+    </script>
+</html>
